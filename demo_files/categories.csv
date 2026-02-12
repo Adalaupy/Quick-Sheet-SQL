@@ -1,0 +1,5 @@
+﻿category_id,category_code,category_name,parent_category
+1,CAT01,Electronics,-
+2,CAT02,Accessories,Electronics
+3,CAT03,Audio,Electronics
+4,CAT04,Peripherals,Accessories
