@@ -47,7 +47,7 @@ pip install streamlit_code_editor
 streamlit run app.py
 ```
 
-## Local Development Note
+# Local Development Note
 
 When running locally, you can specify custom upload and download folders by editing the paths directly in `app_local.py`.
 
@@ -55,7 +55,7 @@ When running locally, you can specify custom upload and download folders by edit
 streamlit run app_local.py
 ```
 
-## Remark
+# Remark
 
 For Excel files with multiple worksheets, each sheet is registered as a separate table using this naming format:<br>
 **{filename}\_{worksheet_name}**<br>
@@ -64,6 +64,7 @@ For Excel files with multiple worksheets, each sheet is registered as a separate
 File: sales_data.xlsx<br>
 Sheets: Jan, Feb, Summary<br>
 → Tables become: sales_data_Jan, sales_data_Feb, sales_data_Summary
+
 
 
 
