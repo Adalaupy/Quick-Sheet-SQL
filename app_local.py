@@ -4,7 +4,8 @@ from pandasql import sqldf
 import functions as fn
 from code_editor import code_editor
 
-st.set_page_config(layout="wide")
+
+st.set_page_config(layout="wide", page_title="Quick Sheet SQL", page_icon="💻")
 
 
 # =============================================================================================================
@@ -206,6 +207,8 @@ if len(st.session_state['data'] ) > 0:
 
 
         if len(st.session_state['sql_result']) != 0:
+            
+            st.divider()
             
             st.subheader('Result')
 
