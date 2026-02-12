@@ -13,18 +13,18 @@ Streamlit web app for uploading CSV, Parquet, or Excel files, querying them with
 
 # Features
 
-- Upload multiple files at once (CSV, .parquet, .xlsx/.xls)
-  ![alt text](/asset/image.png)
-- Auto-register uploaded files as queryable tables with preview function
-  ![alt text](/asset/image1.png)
-- Write and run SQL queries using pandasql (SQLite syntax)
-- Preview results in interactive table
-  ![alt text](/asset/image2.png)
-- Save query results as persistent named dataframes in session state
-  ![alt text](/asset/image3.png)
-- Download any result table as CSV
-  ![alt text](/asset/image4.png)
+- Upload multiple files at once (CSV, .parquet, .xlsx/.xls)<br>
+  <img src="/asset/image.png" width="500" alt="description">
+- Auto-register uploaded files as queryable tables with preview function<br>
+  <img src="/asset/image1.png" width="500" alt="description">
+- Write and run SQL queries using pandasql (SQLite syntax) + Preview results<br>
+  <img src="/asset/image2.png" width="800" alt="description">
+- Save query results as persistent named dataframes in session state<br>
+  <img src="/asset/image3.png" width="900" alt="description">  
+- Download any result table as CSV<br>
+  <img src="/asset/image4.png" width="500" alt="description">
 
+  
 # Installation
 
 ```
@@ -64,3 +64,4 @@ Example:<br>
 File: sales_data.xlsx<br>
 Sheets: Jan, Feb, Summary<br>
 → Tables become: sales_data_Jan, sales_data_Feb, sales_data_Summary
+
