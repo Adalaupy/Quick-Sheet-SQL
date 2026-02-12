@@ -22,7 +22,7 @@ Streamlit web app for uploading CSV, Parquet, or Excel files, querying them with
 - Save query results as persistent named dataframes in session state<br>
   <img src="/asset/image3.png" width="900" alt="description">  
 - Download any result table as CSV<br>
-  <img src="/asset/image4.png" width="500" alt="description">
+  <img src="/asset/image4.png" width="600" alt="description">
 
   
 # Installation
@@ -64,5 +64,6 @@ For Excel files with multiple worksheets, each sheet is registered as a separate
 File: sales_data.xlsx<br>
 Sheets: Jan, Feb, Summary<br>
 → Tables become: sales_data_Jan, sales_data_Feb, sales_data_Summary
+
 
 
