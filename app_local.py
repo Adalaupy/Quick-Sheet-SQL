@@ -5,7 +5,7 @@ import functions as fn
 from code_editor import code_editor
 
 
-st.set_page_config(layout="wide", page_title="Quick Sheet SQL", page_icon="💻")
+st.set_page_config(layout="wide", page_title="Quick Sheet SQL", page_icon="	🧮")
 
 
 # =============================================================================================================
