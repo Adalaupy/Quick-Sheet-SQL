@@ -6,6 +6,7 @@
 - [Run](#run)
 - [Local Development Note](#local-development-note)
 - [Remark](#remark)
+- [Try Me](#try-me)
 
 # General Information
 
@@ -64,6 +65,10 @@ For Excel files with multiple worksheets, each sheet is registered as a separate
 File: sales_data.xlsx<br>
 Sheets: Jan, Feb, Summary<br>
 → Tables become: sales_data_Jan, sales_data_Feb, sales_data_Summary
+
+
+# Try Me
+https://quick-sheet-sql.streamlit.app/
 
 
 
