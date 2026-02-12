@@ -60,8 +60,9 @@ streamlit run app_local.py
 For Excel files with multiple worksheets, each sheet is registered as a separate table using this naming format:<br>
 **{filename}\_{worksheet_name}**<br>
 <br>
-Example:<br>
+**Example:**<br>
 File: sales_data.xlsx<br>
 Sheets: Jan, Feb, Summary<br>
 → Tables become: sales_data_Jan, sales_data_Feb, sales_data_Summary
+
 
