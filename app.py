@@ -42,7 +42,7 @@ with st.columns([1,2,1])[1]:
         uploader = st.file_uploader("Choose a csv/xlsx file" , accept_multiple_files=True, key="uploader" )
 
 
-        with st.columns([3,1,3])[-2]:
+        with st.columns([4,2,3])[-2]:
             
             submitted = st.form_submit_button("Submit")
 
